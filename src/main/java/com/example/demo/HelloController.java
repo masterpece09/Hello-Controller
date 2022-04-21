@@ -10,5 +10,10 @@ public class HelloController {
 	public String hello() {
 		return "Hello World from Docker!";
 	}
+	
+	@GetMapping("/")
+	public String welcome() {
+		return "Welcom to this app!";
+	}
 
 }
