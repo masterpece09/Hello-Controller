@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>hello-docker</artifactId>
-<!-- 	<version></version> -->
+	<version>1</version>
 	<name>hello-docker</name>
 	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
