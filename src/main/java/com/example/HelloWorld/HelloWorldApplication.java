@@ -4,11 +4,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
-//import org.springframework.web.bind.annotation.RequestMapping;
-//import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-//@RestController
+@RestController
 public class HelloWorldApplication extends SpringBootServletInitializer
 {
 	@Override
@@ -22,9 +22,9 @@ public class HelloWorldApplication extends SpringBootServletInitializer
 		SpringApplication.run(HelloWorldApplication.class, args);
 	}
 
-/*	@RequestMapping(value = "/hello")
+    @RequestMapping(value = "/hello")
 	public String helloWorld()
 	{
 		return "Hello World, Peter";
-	}*/
+	}
 }
